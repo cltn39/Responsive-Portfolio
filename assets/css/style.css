@@ -1,0 +1,224 @@
+  * {
+    text-decoration: none;
+  }
+  p {
+    line-height: 32px;
+  }
+  
+  img {
+    max-width:100%
+  }
+
+  h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    background-image: url(../images/prism/prism.png);
+    background-color: #4aaaa5;
+    
+  }
+
+  .top {
+    position: fixed;
+    background: white;
+    /* background-image: url(../images/preview.gif);
+    background-size:repeat; */
+    border-bottom: solid #cccccc 3px;
+    height: 70px;
+    width: 100%;
+  }
+  
+  .header {
+    background: #4aaaa5;
+    float: left;
+    color: white;
+    margin-bottom: 0% ;
+    margin-left: 25vmax;
+    padding: 20px 30px;
+    border: 0px;
+  }
+  
+  #button {
+    padding-top: 30px;
+    margin-right: 25vmax;
+  }
+
+  #button :hover {
+    color: #4aaaa5;
+  }
+
+  #button :active {
+    color: #3b8884;
+  }
+
+  
+  .Contact a {
+    border-right: #333;
+    float: right;
+    color: #777777; 
+  }
+  
+  .Portfolio a {
+    border-right: rgb(230, 229, 229) solid 1px;
+    margin-right: 20px;
+    padding-right: 20px;
+    color: #777777;
+    float: right;
+  }
+  
+  .About a {
+    border-right:  rgb(230, 229, 229) solid 1px;
+    margin-right: 20px;
+    padding-right: 20px;
+    color: #777777;
+    float: right;
+  }
+  
+  .Main {
+    width: 46.5vw;
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    height: 60vh;
+    transform: translate(-50%);
+    background-color: #ffffff;
+    border: #dddddd solid 1px;
+    padding: 40px 30px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    overflow-y: auto;
+  }
+
+  #boxtitle {
+    color: #4aaaa5;
+  }
+  
+  input[type=text], select {
+      width: 46.5vw;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+  select {
+    color:#777777;
+  }
+    
+    input[type=submit] {
+      width: 12%;
+      background-color: #4aaaa5;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+      background-color: #3b8884;
+    }
+  #message {
+    height: 180px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+  }
+    
+  #hr {
+    margin: 30px 0px;
+  }
+  
+  #profile {
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 1%;
+  }
+
+  .footer {
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    color: white;
+    background: #666666;
+    text-align: center;
+    padding-top: 20px;
+
+    border-top: 8px solid #4aaaa5;
+  }
+
+  #imagebox {
+    background-image:url(../images/portfolio/placeholder1.jpg);
+    background-size: cover;
+    height: 16vh;
+    width: 25vh;
+    float: left;
+    margin: 15px 19px;
+  }
+  #imagebox2 {
+    background-image:url(../images/portfolio/placeholder2.jpg);
+    background-size: cover;
+    height: 16vh;
+    width: 25vh;
+    clear: right;
+    float: left;
+    margin: 15px 19px;
+  }
+  #imagebox3 {
+    background-image:url(../images/portfolio/placeholder3.jpg);
+    background-size: cover;
+    height: 16vh;
+    width: 25vh;
+    margin: 15px 19px;
+    float: left;
+  }
+  
+  #imagebox4 {
+    background-image:url(../images/portfolio/placeholder4.jpg);
+    background-size: cover;
+    min-height: 16vh;
+    min-width: 25vh;
+    margin: 15px 19px;
+    float: left;
+  }
+  #imagebox5 {
+    background-image:url(../images/portfolio/placeholder5.jpg);
+    background-size: cover;
+    height: 16vh;
+    width: 25vh;
+    margin: 15px 19px;
+    float: left;
+  }
+  .ptitle {
+    background: #4aaaa5;
+    width: 100%;
+    float:left;
+    color:white;
+    text-align: center;
+    padding: 5% 0%;
+    margin-top: 45%;
+  }
+
+  .pMain {
+    width: 46.5vw;
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    height: 62vh;
+    transform: translate(-50%);
+    background-color: #ffffff;
+    border: #dddddd solid 1px;
+    padding: 40px 30px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    overflow: hidden;
+  }
+  #imagebox :hover, #imagebox2 :hover, #imagebox3 :hover, #imagebox4 :hover, #imagebox5 :hover {
+    background-color: #408f8b;
+  }

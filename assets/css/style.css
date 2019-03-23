@@ -1,6 +1,8 @@
-  * {
+* {
     text-decoration: none;
+  
   }
+  
   p {
     line-height: 32px;
   }
@@ -221,4 +223,222 @@
   }
   #imagebox :hover, #imagebox2 :hover, #imagebox3 :hover, #imagebox4 :hover, #imagebox5 :hover {
     background-color: #408f8b;
+  }
+  @media screen and (max-width: 960px) {
+    .top {
+      position: fixed;
+      background: rgb(255, 255, 255);
+      /* background-image: url(../images/preview.gif);
+      background-size:repeat; */
+      border-bottom: solid #cccccc 3px;
+      height: 70px;
+      width: 100%;
+    }
+    
+    .header {
+      background: #4aaaa5;
+      float: left;
+      color: white;
+      margin-bottom: 0% ;
+      margin-left: 5vmax;
+      padding: 20px 30px;
+      border: 0px;
+    }
+    
+    #button {
+      padding-top: 30px;
+      margin-right: 5vmax;
+    }
+  
+    #button :hover {
+      color: #4aaaa5;
+    }
+  
+    #button :active {
+      color: #3b8884;
+    }
+  
+    
+    .Contact a {
+      border-right: #333;
+      float: right;
+      color: #777777; 
+    }
+    
+    .Portfolio a {
+      border-right: rgb(230, 229, 229) solid 1px;
+      margin-right: 20px;
+      padding-right: 20px;
+      color: #777777;
+      float: right;
+    }
+    
+    .About a {
+      border-right:  rgb(230, 229, 229) solid 1px;
+      margin-right: 20px;
+      padding-right: 20px;
+      color: #777777;
+      float: right;
+    }
+
+    .Main {
+      width: 62vw;
+      position: fixed;
+      top: 10%;
+      left: 40%;
+      height: 60vh;
+      background-color: #ffffff;
+      border: #dddddd solid 1px;
+      padding: 40px 30px;
+      margin-top: 20px;
+      margin-bottom: 100px;
+      overflow-y: auto;
+    }
+  }
+  
+  @media screen and (max-width:768 px){
+    .top {
+      position: fixed;
+      background: rgb(255, 255, 255);
+      /* background-image: url(../images/preview.gif);
+      background-size:repeat; */
+      border-bottom: solid #cccccc 3px;
+      height: 70px;
+      width: 100%;
+    }
+    
+    .header {
+      background: #4aaaa5;
+      float: left;
+      color: white;
+      margin-bottom: 0% ;
+      margin-left: 5vmax;
+      padding: 20px 30px;
+      border: 0px;
+    }
+    
+    #button {
+      padding-top: 30px;
+      margin-right: 5vmax;
+    }
+  
+    #button :hover {
+      color: #4aaaa5;
+    }
+  
+    #button :active {
+      color: #3b8884;
+    }
+  
+    
+    .Contact a {
+      border-right: #333;
+      float: right;
+      color: #777777; 
+    }
+    
+    .Portfolio a {
+      border-right: rgb(230, 229, 229) solid 1px;
+      margin-right: 20px;
+      padding-right: 20px;
+      color: #777777;
+      float: right;
+    }
+    
+    .About a {
+      border-right:  rgb(230, 229, 229) solid 1px;
+      margin-right: 20px;
+      padding-right: 20px;
+      color: #777777;
+      float: right;
+    }
+
+    .Main {
+      width: 62vw;
+      position: fixed;
+      top: 10%;
+      left: 40%;
+      height: 60vh;
+      background-color: #ffffff;
+      border: #dddddd solid 1px;
+      padding: 40px 30px;
+      margin-top: 20px;
+      margin-bottom: 100px;
+      overflow-y: auto;
+    }
+  
+  }
+
+  @media screen and (max-width:640 px){
+    .top {
+      position: static;
+      background: rgb(255, 255, 255);
+      /* background-image: url(../images/preview.gif);
+      background-size:repeat; */
+      border-bottom: solid #cccccc 3px;
+      height: 70px;
+      width: 100%;
+    }
+    
+    .header {
+      background: #4aaaa5;
+      position: static;
+      float: left;
+      color: white;
+      margin-bottom: 0% ;
+      margin-left: 5vmax;
+      padding: 20px 30px;
+      border: 0px;
+    }
+    
+    #button {
+      padding-top: 30px;
+      margin-right: 5vmax;
+    }
+  
+    #button :hover {
+      color: #4aaaa5;
+    }
+  
+    #button :active {
+      color: #3b8884;
+    }
+  
+    
+    .Contact a {
+      border-right: #333;
+      float: right;
+      color: #777777; 
+    }
+    
+    .Portfolio a {
+      border-right: rgb(230, 229, 229) solid 1px;
+      margin-right: 20px;
+      padding-right: 20px;
+      color: #777777;
+      float: right;
+    }
+    
+    .About a {
+      border-right:  rgb(230, 229, 229) solid 1px;
+      margin-right: 20px;
+      padding-right: 20px;
+      color: #777777;
+      float: right;
+    }
+
+    .Main {
+      width: 62vw;
+      position: fixed;
+      top: 10%;
+      left: 40%;
+      height: 60vh;
+      background-color: #ffffff;
+      border: #dddddd solid 1px;
+      padding: 40px 30px;
+      margin-top: 20px;
+      margin-bottom: 100px;
+      overflow-y: auto;
+    }
+
   }
